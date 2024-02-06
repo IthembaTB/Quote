@@ -25,7 +25,7 @@
             <th style="color: black;">Inclusive Total</th>
         </tr>
     </thead>
-    <tbody id="myTable"></tbody>
+    <tbody id="index"></tbody> <!-- Updated id to "index" -->
 </table>
 
 <script>
@@ -40,7 +40,7 @@
     buildTable(myArray);
 
     function buildTable(data) {
-        var table = document.getElementById('myTable');
+        var table = document.getElementById('index'); // Updated reference to "index"
 
         for (var i = 0; i < data.length; i++) {
             var row = `<tr>
